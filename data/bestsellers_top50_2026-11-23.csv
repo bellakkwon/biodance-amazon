@@ -1,0 +1,151 @@
+category,rank,brand,pdrn_in_title,collagen_in_title,other_brand_bio_collagen_name
+mask,1,Biodance,False,True,False
+mask,2,medicube,True,True,False
+mask,3,medicube,False,True,False
+mask,4,COSRX,True,True,False
+mask,5,MEDIHEAL,False,False,False
+mask,6,medicube,True,False,False
+mask,7,SKINTIFIC,False,False,False
+mask,8,medicube,False,False,False
+mask,9,SpaLife,False,False,False
+mask,10,SUNGBOON EDITOR,False,True,False
+mask,11,ZealSea,False,False,False
+mask,12,MAREE,False,True,False
+mask,13,COSRX,False,True,False
+mask,14,VT,False,False,False
+mask,15,SKIN1004,False,False,False
+mask,16,QUIA,False,True,False
+mask,17,(무브랜드),False,True,True
+mask,18,INIA,False,False,False
+mask,19,Celavi,False,False,False
+mask,20,Aztec,False,False,False
+mask,21,BYOMA,False,True,True
+mask,22,TONYMOLY,False,False,False
+mask,23,DERMAL,False,True,False
+mask,24,Anua,True,False,False
+mask,25,COSRX,False,False,False
+mask,26,MENOKIN,False,True,False
+mask,27,medicube,False,True,False
+mask,28,VT,True,False,False
+mask,29,LAUER,False,True,False
+mask,30,TONYMOLY,False,False,False
+mask,31,Dr.Jart+,False,False,False
+mask,32,Rael,False,False,False
+mask,33,(무브랜드),False,True,False
+mask,34,Anua,False,True,False
+mask,35,DA EFFECT,False,False,False
+mask,36,KONEUK,False,False,False
+mask,37,REJURAN,True,False,False
+mask,38,COSRX,False,False,False
+mask,39,Torriden,False,False,False
+mask,40,(무브랜드),False,True,False
+mask,41,medicube,False,False,False
+mask,42,FULLY,False,False,False
+mask,43,LOOPS,False,False,False
+mask,44,medicube,True,False,False
+mask,45,Ebanel,False,True,True
+mask,46,Beauty of Joseon,False,False,False
+mask,47,LAPCOS,False,True,False
+mask,48,LANEIGE,False,False,False
+mask,49,Dr.Melaxin,False,False,False
+mask,50,Quasi,False,True,True
+eye,1,medicube,True,False,False
+eye,2,medicube,True,False,False
+eye,3,Biodance,False,False,False
+eye,4,grace & stella,False,False,False
+eye,5,medicube,True,False,False
+eye,6,Dr.Melaxin,False,False,False
+eye,7,Beauty of Joseon,False,False,False
+eye,8,Topicals,False,False,False
+eye,9,Good Molecules,False,False,False
+eye,10,Abib,False,False,False
+eye,11,Anua,False,False,False
+eye,12,grace & stella,False,False,False
+eye,13,Dr.Melaxin,False,False,False
+eye,14,COSRX,False,False,False
+eye,15,TULA,False,False,False
+eye,16,PEAUAMIE,False,False,False
+eye,17,grace & stella,False,False,False
+eye,18,BodyRestore,False,False,False
+eye,19,KAHI,True,False,False
+eye,20,Maskiss,False,False,False
+eye,21,CeraVe,False,False,False
+eye,22,The Ordinary,False,False,False
+eye,23,d'alba,False,False,False
+eye,24,Patchology,False,False,False
+eye,25,Lux Unfiltered,False,False,False
+eye,26,grace & stella,False,False,False
+eye,27,EPAIS,False,False,False
+eye,28,NAZANO,False,False,False
+eye,29,RoC,False,False,False
+eye,30,TEREZ & HONOR,False,False,False
+eye,31,Biodance,True,False,False
+eye,32,Summer Fridays,False,False,False
+eye,33,Beauty of Joseon,False,False,False
+eye,34,Taimand,False,False,False
+eye,35,Kiehl's,False,False,False
+eye,36,AILEORY,False,False,False
+eye,37,CENTELLIAN 24,True,False,False
+eye,38,CeraVe,False,False,False
+eye,39,Dr.Melaxin,False,False,False
+eye,40,RoC,False,False,False
+eye,41,VT,True,False,False
+eye,42,goPure,False,False,False
+eye,43,Plexaderm,False,False,False
+eye,44,Anua,False,False,False
+eye,45,medicube,False,False,False
+eye,46,AXIS-Y,False,False,False
+eye,47,SpaLife,False,False,False
+eye,48,MEDIHEAL,False,False,False
+eye,49,CHMI,False,False,False
+eye,50,The INKEY List,False,False,False
+serum,1,medicube,True,False,False
+serum,2,Anua,False,False,False
+serum,3,celimax,False,False,False
+serum,4,COSRX,False,False,False
+serum,5,MEDITHERAPY,False,False,False
+serum,6,Arencia,False,False,False
+serum,7,The Ordinary,False,False,False
+serum,8,EQQUALBERRY,False,False,False
+serum,9,Anua,False,False,False
+serum,10,medicube,False,False,False
+serum,11,The Ordinary,False,False,False
+serum,12,Torriden,False,False,False
+serum,13,medicube,False,False,False
+serum,14,SKIN1004,False,False,False
+serum,15,COSRX,False,False,False
+serum,16,Good Molecules,False,False,False
+serum,17,TruSkin,False,False,False
+serum,18,numbuzin,False,False,False
+serum,19,Timeless,False,False,False
+serum,20,EQQUALBERRY,False,False,False
+serum,21,The Ordinary,False,False,False
+serum,22,EQQUALBERRY,False,False,False
+serum,23,Vibriance,False,False,False
+serum,24,Anua,True,False,False
+serum,25,SUNGBOON EDITOR,False,False,False
+serum,26,Good Molecules,False,False,False
+serum,27,SKIN1004,False,False,False
+serum,28,COSRX,False,False,False
+serum,29,Dr.Reju-All,True,False,False
+serum,30,medicube,False,False,False
+serum,31,CeraVe,False,False,False
+serum,32,Good Molecules,False,False,False
+serum,33,CeraVe,False,False,False
+serum,34,medicube,False,False,False
+serum,35,The Ordinary,False,False,False
+serum,36,IUNIK,False,False,False
+serum,37,VT,False,False,False
+serum,38,medicube,False,False,False
+serum,39,Good Molecules,False,False,False
+serum,40,Estée Lauder,False,False,False
+serum,41,BYOMA,False,False,False
+serum,42,REJURAN,True,False,False
+serum,43,Biodance,False,False,False
+serum,44,medicube,False,False,False
+serum,45,SUNGBOON EDITOR,False,False,False
+serum,46,La Roche-Posay,False,False,False
+serum,47,Good Molecules,False,False,False
+serum,48,CeraVe,False,False,False
+serum,49,La Roche-Posay,False,False,False
+serum,50,Dr.Althea,False,False,False
