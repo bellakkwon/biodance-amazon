@@ -10,7 +10,7 @@ def run():
     badge = cat.loc["Hydrogel Eye Patches Collagen Peptide 60ct", "bought_past_month"]
     list_price = 23.0
     units = [round(badge * p) for p in (0.01, 0.03, 0.05)]
-    check("04", "전환 +1% · +3% · +5%일 때 월 추가 개수", " · ".join(f"{u:,}" for u in units), "800 · 2,400 · 4,000")
+    check("04", "판매 +1% · +3% · +5%일 때 월 추가 개수(배지 하한 8만+ 기준)", " · ".join(f"{u:,}" for u in units), "800 · 2,400 · 4,000")
     check("04", "+1%일 때 금액(정가 $23)", f"${units[0] * list_price / 10000:.1f}만", "$1.8만")
 
 

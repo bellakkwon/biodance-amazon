@@ -19,3 +19,10 @@ def check(page, label, got, deck):
     RESULTS.append((page, label, got, deck, ok))
     print(f"[{'OK' if ok else 'DIFF'}] {page} · {label}: {got} (deck: {deck})")
     return got
+
+
+def note(page, label, got):
+    """A number the repo adds as evidence but the deck does not print."""
+    RESULTS.append((page, label, got, "덱에 숫자 없음", True))
+    print(f"[NOTE] {page} · {label}: {got}")
+    return got

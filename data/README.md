@@ -50,7 +50,7 @@ Amazon US Best Sellers 마스크·아이·세럼 카테고리 1–50위 (2026-11
 
 - **표본:** 최신순 100건 + 별점 필터별 최신순 100건(2점은 38건이 전부), 중복 제거, 미국만. 저평점이 실제보다 많습니다.
 - **키워드 열:** `makeup_mention` = make-up·foundation·concealer·sunscreen·SPF. `tag_*` = 원본 파일의 키워드 태그.
-- **사람이 읽고 분류한 열:** `use_morning` · `use_night`(본인이 그 시간에 쓴다고 쓴 리뷰만), `face_mask_compare`(바이오던스 마스크와 비교), `dried_swollen_after_sleep`(붙인 채 잠들어 마르거나 부음). 해당 리뷰 번호와 제외 이유는 스크립트에 적혀 있습니다.
+- **사람이 읽고 분류한 열:** `use_morning` · `use_night`(본인이 그 시간에 쓴다고 쓴 리뷰만), `use_frequency`(매일 / 그보다 적게, 사용 빈도를 적은 리뷰만), `face_mask_compare`(바이오던스 마스크와 비교), `dried_swollen_after_sleep`(붙인 채 잠들어 마르거나 부음). 해당 리뷰 번호와 제외 이유는 스크립트에 적혀 있습니다.
 
 ## 파일 없이 인용한 숫자
 

@@ -35,6 +35,10 @@ TIME_EXCLUDED = {
     54: "describes waking up with bags, use time not stated",
     405: "'after a late night out', use time not stated",
 }
+# How often the reviewer (or the person they write about) uses them. #90 only recommends a daily
+# routine and is left out.
+DAILY_USE = {5, 58, 70, 189, 211, 229, 387, 389}
+LESS_THAN_DAILY = {12, 33, 53, 357, 402}
 # Compares the eye patches with Biodance face masks (not just mentions a mask).
 FACE_MASK_COMPARE = {46, 200, 348, 363, 410}
 # Fell asleep with them on, then dried out or swelled.
@@ -60,9 +64,10 @@ def main(src):
     out["makeup_pilling"] = out.makeup_mention & out.tag_pilling_residue
     out["use_morning"] = out.review_no.isin(MORNING)
     out["use_night"] = out.review_no.isin(NIGHT)
+    out["use_frequency"] = out.review_no.map(lambda n: "daily" if n in DAILY_USE else ("less_than_daily" if n in LESS_THAN_DAILY else ""))
     out["face_mask_compare"] = out.review_no.isin(FACE_MASK_COMPARE)
     out["dried_swollen_after_sleep"] = out.review_no.isin(DRIED_SWOLLEN_AFTER_SLEEP)
-    missing = (MORNING | NIGHT | FACE_MASK_COMPARE | DRIED_SWOLLEN_AFTER_SLEEP | set(TIME_EXCLUDED)) - set(out.review_no)
+    missing = (MORNING | NIGHT | DAILY_USE | LESS_THAN_DAILY | FACE_MASK_COMPARE | DRIED_SWOLLEN_AFTER_SLEEP | set(TIME_EXCLUDED)) - set(out.review_no)
     assert not missing, f"review numbers not in the US sample: {missing}"
     dst = ROOT / "data" / "eye_reviews_coded.csv"
     out.sort_values("review_no").to_csv(dst, index=False)
