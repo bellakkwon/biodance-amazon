@@ -50,7 +50,7 @@ Amazon US Best Sellers 마스크·아이·세럼 카테고리 1–50위 (2026-11
 
 - **표본:** 최신순 100건 + 별점 필터별 최신순 100건(2점은 38건이 전부), 중복 제거, 미국만. 저평점이 실제보다 많습니다.
 - **키워드 열:** `makeup_mention` = make-up·foundation·concealer·sunscreen·SPF. `tag_*` = 원본 파일의 키워드 태그.
-- **사람이 읽고 분류한 열:** `use_morning` · `use_night`(본인이 그 시간에 쓴다고 쓴 리뷰만), `use_frequency`(매일 / 그보다 적게, 사용 빈도를 적은 리뷰만), `face_mask_compare`(바이오던스 마스크와 비교), `dried_swollen_after_sleep`(붙인 채 잠들어 마르거나 부음). 해당 리뷰 번호와 제외 이유는 스크립트에 적혀 있습니다.
+- **사람이 읽고 분류한 열:** `use_morning` · `use_night`(본인이 그 시간에 쓴다고 쓴 리뷰만), `use_frequency`(매일 / 그보다 적게, 사용 빈도를 적은 리뷰만), `wear_time`(리뷰에 적힌 착용 시간: 15분 기준 / 20–30분), `face_mask_compare`(바이오던스 마스크와 비교), `dried_swollen_after_sleep`(붙인 채 잠들어 마르거나 부음). 해당 리뷰 번호와 제외 이유는 스크립트에 적혀 있습니다.
 
 ## 파일 없이 인용한 숫자
 
@@ -58,5 +58,7 @@ Amazon US Best Sellers 마스크·아이·세럼 카테고리 1–50위 (2026-11
 |---|---|---|
 | PDRN 인기 +322% (2025.03–2026.02) | Spate 2026 Ingredients Report | 01 |
 | 콜라겐 마스크 +52.9% · 언더아이 마스크 +52.5% (성장 예측 2·3위) | Spate 2026 Beauty & Wellness Predictions | 01 |
-| ‘#15-min Magic’ · 사용법 20–30분 · ‘Makeup-Ready Skin’ · ‘Busy Mornings’ | 아이패치 상세페이지 (2026-11-23) | 00·04 |
+| ‘#15-min Magic’ · ‘#Makeup-Ready Skin’ · ‘Busy Mornings’ | 아이패치 상세페이지의 마스크 비교 이미지 (2026-11-23) | 00·04 |
+| Remove after 20–30 minutes | 같은 페이지 How to Use | 00·03·04 |
+| 작은 부위에 10–15분 테스트 (사용 시간 아님) | 같은 페이지 Safety Information | 04 |
 | 메디큐브 아이패치 4–5월·8–9월 $17–18 할인, 11월 최저 $15.33 | Keepa 가격 그래프 | 03 |

@@ -16,6 +16,8 @@ def run():
     check("04", "아침 사용 · 밤 사용", f"{int(c.use_morning.sum())} · {int(c.use_night.sum())}", "9 · 8")
     freq = c.use_frequency.fillna("")
     note("03", "사용 빈도를 적은 리뷰 중 매일 · 그보다 적게", f"{int((freq == 'daily').sum())} · {int((freq == 'less_than_daily').sum())}")
+    wear = c.wear_time.fillna("").astype(str)
+    check("04", "착용 시간 15분 기준 · 20–30분", f"{int((wear == '15').sum())} · {int((wear == '20-30').sum())}", "4 · 5")
     fm = c[c.face_mask_compare]
     check("04", "바이오던스 마스크와 비교 · 별점", f"{len(fm)}건 · {fm.star.min()}-{fm.star.max()}점", "5건 · 1-3점")
     check("04", "붙인 채 잠들어 마름·부음", f"{int(c.dried_swollen_after_sleep.sum())}건", "2건")
